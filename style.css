@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&family=Roboto&display=swap');
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .card {
+    width: 300px;
+    height: 370px;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+  }
+
+input{
+  border: none;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 2px solid #773ada;
+}
+input:active{
+  border: none;
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.content{
+    margin: 0 auto;
+    width: 13rem;
+    padding: 0 30px;
+}
+
+h1{
+   font-size: 1.5rem;
+    text-align: center;
+}
+
+button{
+  font-size: 15px;
+  border: none;
+  border-radius: 12px;
+  background-color: #ffff;
+}
+button:hover{
+  cursor: pointer;
+}
+#calculate{
+  padding: 5px 24px;
+}
+#reset{
+  margin-top: 10px;
+  padding: 5px 50px;
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+}

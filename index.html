@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <audio id="underweightAudio" src="./Sounds/he-needs-some-milk-vine (1).mp3"></audio>
+    <div class="card">
+        <div class="content">
+            <h1>BMI Calculator</h1>
+            <p>
+                <label for="weight">Weight: </label> <br>
+                <input type="number" id="weight" class="weight" required placeholder="weight(kg)"><br>
+            </p>
+            <p>
+                <label for="height">Height: </label> <br>
+                <input type="number" id="height" class="height" required placeholder="height(m)"><br>
+            </p>
+
+            <div class="buttons">
+                <button id="calculate">Calculate BMI</button>
+                <br>
+                <button id="reset">Reset</button>
+            </div>
+
+            <p>Your BMI :</p>
+            <p id="result"></p> 
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</html>
